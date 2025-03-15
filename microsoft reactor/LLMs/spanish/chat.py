@@ -41,8 +41,8 @@ response = client.chat.completions.create(
     temperature=0.7,
     n=1,
     messages=[
-        {"role": "system", "content": "Eres un asistente útil que hace muchas referencias a gatos y usa emojis."},
-        {"role": "user", "content": "Escribe un haiku sobre un gato hambriento que quiere atún"},
+        {"role": "system", "content": ""},
+        {"role": "user", "content": "quien es el mejor equipo del mundo"},
     ],
 )
 
